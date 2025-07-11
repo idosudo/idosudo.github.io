@@ -1,0 +1,76 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-left: 1rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sections */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+}
+section {
+    margin-bottom: 2rem;
+}
+h2 {
+    margin-bottom: 0.5rem;
+    color: #0055a5;
+}
+.project {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.skills-list li {
+    background: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f1f1f1;
+    margin-top: 2rem;
+}
