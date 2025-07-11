@@ -1,18 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | IT Technician</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        Hello World!
-    </h1>
-    <p>
-        I'm hosted with GitHub Pages
-    </p>
+    <header>
+        <nav>
+            <h1>Your Name</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm an IT technician with experience in system support, network configuration, and troubleshooting hardware/software issues. I’m passionate about keeping systems running smoothly and helping people solve tech problems efficiently.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>IT Support Technician</strong> @ TechCorp Inc. (2022–Present)<br>
+                    - Resolved 200+ helpdesk tickets/month<br>
+                    - Managed Windows Server environments and Active Directory
+                </li>
+                <li><strong>Junior Helpdesk Analyst</strong> @ LocalGov IT (2020–2022)<br>
+                    - Supported 150+ employees with hardware/software issues<br>
+                    - Assisted in migrating users to Office 365
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Automated Backup Script</h3>
+                <p>Developed a PowerShell script to automate daily workstation backups to a shared NAS drive.</p>
+                <a href="https://github.com/yourusername/backup-script" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Helpdesk Ticket Dashboard</h3>
+                <p>Built a simple internal dashboard using Google Sheets + Apps Script to track and visualize ticket data.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Windows Server</li>
+                <li>Active Directory</li>
+                <li>Networking (TCP/IP, DNS, DHCP)</li>
+                <li>PowerShell & Bash</li>
+                <li>Office 365 Admin</li>
+                <li>Ticketing Systems (Jira, Zendesk)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email me at <a href="mailto:yourname@email.com">yourname@email.com</a> or connect on 
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Your Name. Hosted on GitHub Pages.</p>
+    </footer>
 </body>
 </html>
