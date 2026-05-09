@@ -3,98 +3,230 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caleb Gibson | IT Technician</title>
+    <title>Caleb Gibson | Systems Administrator</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Caleb Gibson</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Caleb Gibson</div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#infrastructure">Infrastructure</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#lab">Systems Lab</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm an IT technician with experience in system administration, network configuration, and troubleshooting hardware/software issues. I’m passionate about fixing and explaining technical issues to end users and staying up-to-date with industry changes.</p>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li><strong>IT Technician</strong> @ Mayflower School District (2023–Present)<br>
-                    - Kept ticket efficiency at company highs while being downsized<br>
-                    - Assistant Coach for eSports <br>
-                    - Managed Windows Server environments and Active Directory <br>
-                    - Managed Google Admin and Workspace <br>
-                    - Inventory management and purchase orders <br>
-                </li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Automated HallPass Import</h3>
-                <p>Used the Cognos Module by Craig Millsap to develop a PowerShell script to automate data imports to HallPass.</p>
-                <a href="https://github.com/yourusername/backup-script" target="_blank">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Working Projects List</h3>
-                <p>Helped design and implement a project list to organize goals and prioritize tasks.</p>
-            </div>
-              <div class="project">
-                <h3>Website Audit</h3>
-                <p>In coordination with the IT Director and Communications Director, completed a checklist of important website updates to maintain a professional and functional web presence.</p>
-            </div>
-             <div class="project">
-                <h3>Network Overhaul</h3>
-                <p>With the other members of my team, completely overhauled Mayflower School Districts network infrastructure (new switches, access points, wiring) and utilized knowledge of networking protocols to troubleshoot issues during deployment and maintenance.</p>
+    <main id="app">
+        <!-- Hero Section -->
+        <section id="overview" class="section hero">
+            <div class="container">
+                <div class="hero-badge">
+                    <div class="badge-circle">CG</div>
+                </div>
+                <h1>Systems Administrator</h1>
+                <p class="tagline">Infrastructure | Active Directory | Intune | M365 | Network Management</p>
+                <p class="bio">3+ years of hands-on infrastructure experience in K-12 education. Specialized in device management at scale, directory services, and operational automation.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="/resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
             </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>Windows Server</li>
-                <li>Active Directory</li>
-                <li>Group Policy Management</li>
-                <li>Networking (Aruba, Cisco)</li>
-                <li>PowerShell</li>
-                <li>Google Admin</li>
-                <li>Ticketing Systems</li>
-            </ul>
-             <h2>Soft Skills</h2>
-            <ul class="skills-list">
-                <li>Communication</li>
-                <li>Team Player</li>
-                <li>Adaptable</li>
-                <li>Time Management</li>
-                <li>Dedication</li>
-                <li>Creative</li>
-                <li>Integrity</li>
-            </ul>
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3>IT Technician</h3>
+                        <span class="company">Mayflower School District</span>
+                    </div>
+                    <p class="period">Aug. 2023 – Sep. 2025</p>
+                    <ul>
+                        <li>Managed Active Directory infrastructure supporting 1,000+ users across K-12 environment</li>
+                        <li>Deployed and maintained MECM/Google Admin for 500+ device management and application provisioning</li>
+                        <li>Designed and implemented VLAN segmentation and network access controls across district supporting over 100 Switches and 300 Access Points</li>
+                        <li>Reduced helpdesk ticket response time through automation and process optimization</li>
+                        <li>Administrated Google Workspace environment for staff and student accounts</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3>Systems Administrator</h3>
+                        <span class="company">Vilonia School District</span>
+                    </div>
+                    <p class="period">Sep. 2025 – Present</p>
+                    <ul>
+                        <li>Managed Active Directory/Google Workspace/Microsoft 365 supporting 4,000+ users across K-12 environment</li>
+                        <li>Deployed and maintained MECM/Intune for 1000+ device management and application provisioning</li>
+                        <li>Designed and implemented VLAN segmentation and network access controls across district supporting over 100 Switches and 300 Access Points</li>
+                        <li>Reduced helpdesk ticket response time through automation and process optimization</li>
+                        <li>Administrated Google Workspace environment for staff and student accounts</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Infrastructure Section -->
+        <section id="infrastructure" class="section infrastructure">
+            <div class="container">
+                <h2>Infrastructure & Systems</h2>
+                
+                <div class="infra-grid">
+                    <div class="infra-card">
+                        <h3>Active Directory & Identity</h3>
+                        <p>Multi-site AD infrastructure with GPO management, security groups, and delegation models. Experience with hybrid Azure AD and conditional access policies.</p>
+                    </div>
+                    
+                    <div class="infra-card">
+                        <h3>Device Management</h3>
+                        <p>Intune/MECM administration covering Windows 10/11 deployment, compliance policies, conditional access, and application provisioning at scale.</p>
+                    </div>
+                    
+                    <div class="infra-card">
+                        <h3>Networking & VLANs</h3>
+                        <p>Network segmentation design, VLAN configuration on Aruba/Cisco switches, DNS/DHCP management, and network troubleshooting.</p>
+                    </div>
+                    
+                    <div class="infra-card">
+                        <h3>Cloud & SaaS</h3>
+                        <p>Microsoft 365 administration including Teamviewer Integration, SharePoint, and Google Admin management for Chromebook environments.</p>
+                    </div>
+                </div>
+
+                <div class="architecture-section">
+                    <h3>K-12 Environment Architecture</h3>
+                    <pre class="code-block">Internet
+   ↓
+[Firewall / UTM] → Network Segmentation
+   ├─ Admin VLAN
+   ├─ Staff VLAN  
+   ├─ Student VLAN
+   └─ Guest VLAN
+   ↓
+[Meraki Access Points] ← WiFi Management
+   ↓
+[Active Directory] ← Identity & Authorization
+   ├─ Computer Objects
+   ├─ User Objects
+   └─ Group Policy
+   ↓
+[Intune] ← Device Compliance & Apps
+   ├─ Enrollment
+   ├─ Configuration Profiles
+   └─ App Deployment</pre>
+                </div>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email me at <a href="mailto:calebs.code1@gmail.com">calebs.code1@gmail.com</a> or connect on 
-                <a href="https://www.linkedin.com/in/caleb-gibson-14295b27a/" target="_blank">LinkedIn</a> and <a href="https://github.com/idosudo"> GitHub</a>
-            </p>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Stack</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Directory Services</h4>
+                        <div class="skill-tags">
+                            <span class="tag">Active Directory</span>
+                            <span class="tag">Group Policy</span>
+                            <span class="tag">Azure AD</span>
+                            <span class="tag">LDAP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Device Management</h4>
+                        <div class="skill-tags">
+                            <span class="tag">Intune</span>
+                            <span class="tag">MECM</span>
+                            <span class="tag">Windows Updates</span>
+                            <span class="tag">Compliance Policies</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Cloud & Collaboration</h4>
+                        <div class="skill-tags">
+                            <span class="tag">Microsoft 365</span>
+                            <span class="tag">Checkpoint MDR/EDR</span>
+                            <span class="tag">Teamviewer</span>
+                            <span class="tag">Google Workspace Admin</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Networking</h4>
+                        <div class="skill-tags">
+                            <span class="tag">Access Point Optimization</span>
+                            <span class="tag">DNS/DHCP</span>
+                            <span class="tag">Cisco/Aruba Switches</span>
+                            <span class="tag">Network Segmentation/VLANs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Automation & Scripting</h4>
+                        <div class="skill-tags">
+                            <span class="tag">PowerShell</span>
+                            <span class="tag">SIS Integration</span>
+                            <span class="tag">Process Automation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Certifications</h4>
+                        <div class="skill-tags">
+                            <span class="tag">CompTIA Net+ (In Progress)</span>
+                            <span class="tag">MD-102 / AZ-104 (Target)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Systems Lab Section -->
+        <section id="lab" class="section">
+            <div class="container">
+                <h2>Systems Lab</h2>
+                <p class="lab-description">Simulated PS Lab Environment. Try commands like: <code>about</code>, <code>projects</code>, <code>skills</code>, or <code>help</code> for full list.</p>
+                
+                <div id="terminal" class="terminal">
+                    <div id="output" class="output" aria-live="polite"></div>
+                    <div id="input-line" class="input-line">
+                        <span class="prompt">PS C:\Users\caleb&gt;</span>
+                        <input type="text" id="command-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-links">
+                    <a href="mailto:calebgibson.it@gmail.com" class="contact-link">Email: calebgibson.it@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/calebgibson-sysadmin/" class="contact-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/idosudo" class="contact-link" target="_blank">GitHub</a>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2025 Caleb Gibson. Hosted on GitHub Pages.</p>
+        <p>&copy; 2026 Caleb Gibson. Systems Administration.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
